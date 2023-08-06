@@ -16,5 +16,5 @@ form.addEventListener('submit', (event) => {
     }
     else tempUrl += `year=${year}`;
 
-    document.getElementById('head').innerText = tempUrl;
+    document.getElementById('url').innerText = tempUrl;
 })
